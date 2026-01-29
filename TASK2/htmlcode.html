@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>
+            Project registration form
+        </title>
+    </head>
+    <link rel="stylesheet" href="csscode.css">
+    <script src="scriptcode.js"></script>
+    <body>
+        <center><h1>PROJECT MANAGEMENT</h1></center>
+        <center>
+            <div><table cellpadding="6">
+            <form onsubmit="return submitProjectForm()">
+           <tr>
+            <td><label for="" id="projectName">Project Name:</label>
+            <input type="text" size="40"  placeholder="Enter the project name" class="center"></td>
+           </tr>
+           <tr>
+                <td><label for="" id="employeeName">Employee Name:</label>
+            <input type="text" size="40" placeholder="Enter the employee name" class="center"></td>
+          </tr>
+          <tr>
+            <td>
+                <lable for="" id="employeeEmail">Employee-email:</lable>
+                <input type="email"  size="40" placeholder="Enter the email" class="center">
+            </td>
+          </tr>
+          <tr>
+            <td><label for="" id="assignedTo">Assigned to:</label>
+                <select class="size">
+                    <option value="">select the option</option>
+                    <option>Team leader</option>
+                    <option>HR</option>
+                </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="">Priority:</label>
+                <input type="radio">
+                <label>High</label>
+                <input type="radio">
+                <label>Average</label>
+                <input type="radio">
+                <label>low</label>
+            </td>
+          </tr>
+          <tr><td align="center"><button type="submit">Submit</button></td></tr>
+        </form></table></div>
+        <main>
+            <h2>PROJECTS</h2>
+            <input type="text" id="newProject"size="50" placeholder="Enter a project" class="center"><br><br>
+            <button onclick="addProject()">Add project</button>
+            <ul id="newList"></ul>
+
+             
+        </main>
+    </body>
+</html>

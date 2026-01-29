@@ -1,0 +1,51 @@
+body{
+    background-color:azure;
+}
+h1{
+    background-color:black;
+    color:white;
+    width:500px;
+    height:40px
+}
+div{
+    background-color:lightpink;
+    width:500px;
+}
+.center{
+    text-align:center;
+}
+.size{
+    width:330px;
+    text-align:center;
+}
+main{
+    background-color:lightpink;
+    width:500px;
+    height:200px;
+}
+button{
+    height:20px;
+    width:90px;
+    border:null;
+    border-radius:10px;
+    cursor:pointer;
+    background-color:#2196f3;
+    color:white;
+}
+.code{
+    text-align:center;
+    height:20px;
+    width:380px;
+    border:null;
+    cursor:pointer;
+    background-color:#2196f3;
+}
+ li {
+            background: #eee;
+            margin-top: 5px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+
